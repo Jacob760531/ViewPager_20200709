@@ -1,4 +1,4 @@
-package kr.co.tjoeun.fragmemnt_20200709.flagments
+package kr.co.tjoeun.viewpager_20200709.flagments
 
 import android.os.Bundle
 import android.view.LayoutInflater
