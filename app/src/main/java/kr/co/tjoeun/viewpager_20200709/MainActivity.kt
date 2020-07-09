@@ -27,6 +27,9 @@ class MainActivity : BaseActivity() {
 //        페뷰페이저용 어댑터 변수를 초기화
         mvpa = MainViewPagerAdapter(supportFragmentManager)
         mainViewPager.adapter = mvpa
+
+//        탭 레이아웃의 기능으로 뷰페이저에 붙여주자
+        myTabLayout.setupWithViewPager(mainViewPager)
     }
 
 }
