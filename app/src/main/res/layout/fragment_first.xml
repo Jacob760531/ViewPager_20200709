@@ -3,7 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="#FF0000"
     android:gravity="center"
     android:layout_height="match_parent">
 
@@ -12,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="여기는 첫번째 프레그먼트 입니다"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <Button
